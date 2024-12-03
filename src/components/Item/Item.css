@@ -1,29 +1,57 @@
-/* mexe no formato do card */
 .item {
     width: 350px;
-
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
 }
 
-.item p{
-     margin: 7px 50px;  
-     font-size: large
-
+.item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ff6347;
 }
 
-.item-prices{
-   
-    gap: 20px;
+.item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.item p {
+    margin: 7px 20px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.item-prices {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
 }
 
 .item-prices-new {
-    color: #000000;
-    font-size: 50px;
+    color: #333;
+    font-size: 28px;
     font-weight: 600;
-    padding-left: 55px;
+    padding-left: 10px;
 }
 
+.item-prices-old {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 20px;
+    padding-left: 10px;
+}
 
-.item:hover{
-    transform: scale(0.95);
-    border: 1px solid red 
+.item-title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    padding-top: 10px;
 }

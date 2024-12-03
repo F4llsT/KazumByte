@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Context } from '../context/Context';
 import { useParams } from 'react-router-dom';
 import { useStore } from '../store'; // Importa a store do Zustand
-
+import './produto.css';
 const Produtos = () => {
   const { all_product } = useContext(Context);
   const { produtosId } = useParams();
@@ -20,13 +20,14 @@ const Produtos = () => {
   };
 
   return (
-    <div>
+    <div className="produto-container">
       <h1>{produto.name}</h1>
       <img src={produto.image} alt={produto.name} />
       <p>Preço: R${produto.new_price}</p>
       <button onClick={handleAddToCart}>Adicionar ao Carrinho</button>
     </div>
   );
+  
 };
 
 export default Produtos;
