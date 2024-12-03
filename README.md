@@ -1,3 +1,9 @@
+Bruno Rafael Nery Ferreira 04161964.
+Thiago da Silva Carvalho 04160205.
+Ana Rita Braga de Deus	04164101
+Jean Carlos Coelho Benício 04159565.
+Arthur Lopes Libonati 04163828 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -70,11 +76,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-envolvidos no projeto:
-
-João Victor Costa da Cruz
-Renan Ribeiro Ferro.
-Athos Kael Sizo Santos
-Bernardo Neto da Silva Santos.
-Eurico Pinheiro Moreira Neto
-Ricardo Consort Marques Pereira
